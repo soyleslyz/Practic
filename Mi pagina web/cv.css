@@ -1,0 +1,46 @@
+
+/*About-me-Begin*/
+.title-main{
+    color: rgb(169, 106, 91);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        background-color: beige;
+        
+    
+
+}
+
+.title-secondary {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    color: rgb(249, 124, 201);
+    
+}
+
+.title-section {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: rgb(250, 177, 189);
+    background-color: beige;
+}
+    
+aside {
+    background-color: rgb(169, 106, 91);
+    height: 100%;
+    color: black;
+    background-color: pink;
+    
+    
+}
+
+.photo-profile {
+    height: 16.2%;
+    border-radius: 70%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+/*About-me-end*/
+
