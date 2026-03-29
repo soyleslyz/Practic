@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body style="background-color: pink;">
+        <div class="container">
+            <div class="row">
+                    <div class="col">
+                    <div class="card shadow p-4 mx-auto" style="max-width: 550px;">
+                     <h1>Formulario de registo</h1>
+                     <form action="form.html" method="post">
+
+
+         <form action="form.html" method="post"> 
+
+
+     <!--Nombre completo-->
+            <div class="mb-3">
+        <label for="txtnombre" class="form-label">Nombre completo</label>
+        <input type="text" class="form-control" name="txtnombre" id="txtnombre" 
+            placeholder="Ej. Juan Perez">
+            </div>
+
+    <!--Telefono-->
+            <div class="mb-3">
+         <label for="textel" class="form-label">Numero de telefono</label>
+        <input type="tel" class="form-control" id="textel" name="textel" required 
+        pattern="[0-9]{10}"
+             placeholder="10 digitos (EJ.8123457852)">
+            </div>
+
+    
+    <!--Correo electronico-->
+            <div class="mb-3">
+        <label for="txtemail" class="form-label">Direccion de correo:</label>
+        <div class="input-group">
+            <span class="input">@</span>
+            <input type="email" class="form-control" name="txtemail"
+             placeholder="ejemplo@correo.com">
+         </div>
+         </div>
+            
+    
+
+     <!--Contraseña-->
+               <div class="mb-3">
+        <label for="txtpass" class="form-label">Ingrese contraseña</label>
+        <input type="password" class="form-control" id="txtpass" name="txtpass" 
+            placeholder="Minimo 8 caracteres" required>
+                </div>
+
+
+     <!-- Confirmar contraseña-->
+                <div class="mb-3">
+        <label for="txtpass" class="form-label">Confirmar contraseña</label>
+        <input type="password" class="form-control" id="txtpass" name="txtpass" 
+            placeholder="Repite tu contraseña" required>
+                </div>
+
+
+     <!-- Fecha de nacimiento-->
+                <div class="mb-3">
+        <label for="fecha-nac" class="form-label">Selecciona tu fecha de nacimiento</label>
+        <input type="date" class="form-control" id="fecha-nac" name="fecha-nac">
+                </div>
+
+     <!-- Genero-->
+           <p>Genero:</p>    
+                 <div class="form-check">  
+         <input type="radio" class="form-check-input" id="hombre" name="genero" value="hombre">
+         <label for="hombre" class="form-check-label">Hombre</label><br>
+                 </div>
+         
+                <div class="form-check">
+         <input type="radio" class="form-check-input" name="radio" id="mujer" value="mujer">
+         <label for="mujer" class="form-check-label">Mujer</label><br>
+                </div>
+
+                <div class="form-check">
+         <input type="radio" class="form-check-input" id="otro" name="genero" value="otro">
+         <label for="otro" class="form-check-label">Otro</label>
+                </div>
+            
+
+        <!-- Terminos y condiciones-->
+                 <div class="form-check mt-3 mb-3">
+         <input type="checkbox" class="form-check-input" id="terminos" name="terminos" required>
+         <label for="terminos" class="form-check-label">Acepto los terminos y condiciones</label>
+               </div>     
+
+
+         
+      <!-- Registrar-->
+        <input type="submit" class="btn btn-primary btn-lg" value="Registrar"> 
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+                     </form>
+                 </div>
+            </div>
+        </div>
+
+
+      
+    </div>
+
+
+
+
+</body>
+</html>
